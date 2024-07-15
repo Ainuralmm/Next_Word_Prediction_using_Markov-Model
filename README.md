@@ -37,6 +37,8 @@ In practical settings, there is often insufficient data to accurately estimate t
 
 **Next word prediction**
 
+<img width="1193" alt="Screenshot 2024-07-15 at 23 12 49" src="https://github.com/user-attachments/assets/9260778f-838f-4431-8259-849767b39af3">
+
 Now let’s take our understanding of Markov model and do something interesting. Suppose we want to build a system which when given an incomplete sentence, the system tries to predict the next word in the sentence. So, how do we take a word prediction case as in this one and model it as a Markov model problem? Treat every word as a state and predict the next word based on the previous state, as simple as that. This case is a perfect fit for Markov chain.
 
 Wait, but how do you do that? Enter probability distribution. Let’s understand this better with a simple example. Consider the three simple sentences -
@@ -116,9 +118,7 @@ _where you go i give as good as i touched your face_
 
 Yes, it like Adele and it didn’t make much sense... However, the sentences kind of make sense but the whole prose doesn’t connect properly. This is mainly due to the fact that Markov model only considers the previous state and neglects the past which indeed results in loss of information. This is what we refer to as the memoryless property of a stochastic process. 
 
-**Conclusion**
 
-As we can notice, Markov models do provide decent results. Hence, Markov models should not be completely written off. 
 
 **References:**
 1) https://en.wikipedia.org/wiki/Markov_chain
