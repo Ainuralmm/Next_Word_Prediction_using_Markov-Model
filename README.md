@@ -118,7 +118,9 @@ _where you go i give as good as i touched your face_
 
 Yes, it like Adele and it didn’t make much sense... However, the sentences kind of make sense but the whole prose doesn’t connect properly. This is mainly due to the fact that Markov model only considers the previous state and neglects the past which indeed results in loss of information. This is what we refer to as the memoryless property of a stochastic process. 
 
+**Conclusion**
 
+As we can notice, Markov models do provide decent results. Hence, Markov models should not be completely written off.
 
 **References:**
 1) https://en.wikipedia.org/wiki/Markov_chain
